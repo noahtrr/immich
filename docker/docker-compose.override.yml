@@ -1,0 +1,9 @@
+services:
+  immich-server:
+    labels:
+      tsdproxy.enable: true
+      tsdproxy.name: "immich"
+      homepage.group: "Media"
+      homepage.name: "Immich"
+      homepage.icon: "sh-immich-dark"
+      homepage.href: "immich.lenok-little.ts.net"
